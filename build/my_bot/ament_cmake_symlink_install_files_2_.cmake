@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/karan/robot_ws/src/my_bot" FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_bot/environment")

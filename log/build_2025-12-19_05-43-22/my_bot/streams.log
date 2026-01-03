@@ -1,0 +1,47 @@
+[0.045s] Invoking command in '/home/karan/robot_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/karan/robot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karan/robot_ws/src/install/my_bot
+[0.219s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.970s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.079s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.359s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.386s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.387s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.392s] -- Added test 'lint_cmake' to check CMake code style
+[1.397s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.428s] -- Added test 'xmllint' to check XML markup files
+[1.441s] -- Configuring done (1.3s)
+[1.508s] -- Generating done (0.0s)
+[1.523s] -- Build files have been written to: /home/karan/robot_ws/src/build/my_bot
+[1.540s] Invoked command in '/home/karan/robot_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/karan/robot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karan/robot_ws/src/install/my_bot
+[1.547s] Invoking command in '/home/karan/robot_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/karan/robot_ws/src/build/my_bot -- -j8 -l8
+[1.680s] Invoked command in '/home/karan/robot_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/karan/robot_ws/src/build/my_bot -- -j8 -l8
+[1.712s] Invoking command in '/home/karan/robot_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/karan/robot_ws/src/build/my_bot
+[1.736s] -- Install configuration: ""
+[1.737s] -- Execute custom install script
+[1.738s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/config/controllers.yaml
+[1.739s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/config/empty.yaml
+[1.740s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.740s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.740s] -- Symlinking: /home/karan/robot_ws/src/install/my_bot/share/my_bot/description/lidar.xacro
+[1.767s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.768s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.768s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.769s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.770s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/worlds/empty.world
+[1.770s] -- Symlinking: /home/karan/robot_ws/src/install/my_bot/share/my_bot/worlds/obstacle.sdf
+[1.798s] -- Symlinking: /home/karan/robot_ws/src/install/my_bot/share/my_bot/worlds/test_world.sdf
+[1.827s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.828s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.829s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.829s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.830s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/environment/path.sh
+[1.831s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/environment/path.dsv
+[1.831s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/local_setup.bash
+[1.832s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/local_setup.sh
+[1.833s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/local_setup.zsh
+[1.834s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/local_setup.dsv
+[1.834s] -- Symlinking: /home/karan/robot_ws/src/install/my_bot/share/my_bot/package.dsv
+[1.866s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.866s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.867s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.867s] -- Up-to-date symlink: /home/karan/robot_ws/src/install/my_bot/share/my_bot/package.xml
+[1.874s] Invoked command in '/home/karan/robot_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/karan/robot_ws/src/build/my_bot

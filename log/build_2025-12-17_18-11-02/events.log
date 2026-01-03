@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.002022] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002697] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.040445] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.049837] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/karan/robot_ws/src/my_bot', '-DCMAKE_INSTALL_PREFIX=/home/karan/robot_ws/src/install/my_bot'], 'cwd': '/home/karan/robot_ws/src/build/my_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'USER': 'karan', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'WT_PROFILE_ID': '{a63c2512-4e87-57e5-a7d5-b28ef0622bad}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/karan', 'OLDPWD': '/home/karan/robot_ws', 'TERM_PROGRAM_VERSION': '1.107.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-57def8ce-2384-4fa7-bd8d-18a1f68add9f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'karan', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/1227_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/karan/.vscode-server/bin/618725e67565b290ba4da6fe2d29f8fa1d4e3622/bin/remote-cli:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/New folder/Git/cmd:/mnt/d/New folder/Git/mingw64/bin:/mnt/d/New folder/Git/usr/bin:/mnt/d/New folder/Git:/mnt/d/New folder/Git/bin:/mnt/d/New folder/Git/cmd:/mnt/c/Users/karan/AppData/Local/Microsoft/WindowsApps:/mnt/d/Visual Studio/Microsoft VS Code/bin:/mnt/c/Users/karan/AppData/Roaming/npm:/mnt/c/Users/karan/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin', 'WT_SESSION': '7a9a69d2-3b01-454e-bff0-973390dd26e3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/karan/robot_ws/src/build/my_bot', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/opt/gz_sim_vendor/lib/python:/opt/ros/rolling/opt/gz_transport_vendor/lib/python:/opt/ros/rolling/opt/sdformat_vendor/lib/python:/opt/ros/rolling/opt/gz_msgs_vendor/lib/python:/opt/ros/rolling/opt/gz_math_vendor/lib/python:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.098795] (-) TimerEvent: {}
+[0.199696] (-) TimerEvent: {}
+[0.300849] (-) TimerEvent: {}
+[0.402202] (-) TimerEvent: {}
+[0.502969] (-) TimerEvent: {}
+[0.603925] (-) TimerEvent: {}
+[0.678123] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.704146] (-) TimerEvent: {}
+[0.805191] (-) TimerEvent: {}
+[0.906160] (-) TimerEvent: {}
+[1.007390] (-) TimerEvent: {}
+[1.108538] (-) TimerEvent: {}
+[1.209508] (-) TimerEvent: {}
+[1.310292] (-) TimerEvent: {}
+[1.411090] (-) TimerEvent: {}
+[1.511904] (-) TimerEvent: {}
+[1.612784] (-) TimerEvent: {}
+[1.713663] (-) TimerEvent: {}
+[1.814427] (-) TimerEvent: {}
+[1.915269] (-) TimerEvent: {}
+[2.016080] (-) TimerEvent: {}
+[2.116868] (-) TimerEvent: {}
+[2.217713] (-) TimerEvent: {}
+[2.318498] (-) TimerEvent: {}
+[2.419192] (-) TimerEvent: {}
+[2.519974] (-) TimerEvent: {}
+[2.621176] (-) TimerEvent: {}
+[2.722325] (-) TimerEvent: {}
+[2.775418] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.822646] (-) TimerEvent: {}
+[2.923697] (-) TimerEvent: {}
+[3.024580] (-) TimerEvent: {}
+[3.125476] (-) TimerEvent: {}
+[3.226364] (-) TimerEvent: {}
+[3.327141] (-) TimerEvent: {}
+[3.427922] (-) TimerEvent: {}
+[3.528823] (-) TimerEvent: {}
+[3.629936] (-) TimerEvent: {}
+[3.730714] (-) TimerEvent: {}
+[3.831586] (-) TimerEvent: {}
+[3.932497] (-) TimerEvent: {}
+[4.033492] (-) TimerEvent: {}
+[4.134324] (-) TimerEvent: {}
+[4.235203] (-) TimerEvent: {}
+[4.336078] (-) TimerEvent: {}
+[4.437402] (-) TimerEvent: {}
+[4.538462] (-) TimerEvent: {}
+[4.639637] (-) TimerEvent: {}
+[4.717924] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.740059] (-) TimerEvent: {}
+[4.841021] (-) TimerEvent: {}
+[4.942043] (-) TimerEvent: {}
+[5.043158] (-) TimerEvent: {}
+[5.144034] (-) TimerEvent: {}
+[5.245383] (-) TimerEvent: {}
+[5.346573] (-) TimerEvent: {}
+[5.447515] (-) TimerEvent: {}
+[5.548511] (-) TimerEvent: {}
+[5.649626] (-) TimerEvent: {}
+[5.750520] (-) TimerEvent: {}
+[5.835456] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.850866] (-) TimerEvent: {}
+[5.857403] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.858201] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.859230] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.951156] (-) TimerEvent: {}
+[6.051963] (-) TimerEvent: {}
+[6.152826] (-) TimerEvent: {}
+[6.197032] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.253306] (-) TimerEvent: {}
+[6.354397] (-) TimerEvent: {}
+[6.455513] (-) TimerEvent: {}
+[6.556466] (-) TimerEvent: {}
+[6.657400] (-) TimerEvent: {}
+[6.758620] (-) TimerEvent: {}
+[6.859571] (-) TimerEvent: {}
+[6.960387] (-) TimerEvent: {}
+[7.061336] (-) TimerEvent: {}
+[7.162176] (-) TimerEvent: {}
+[7.226297] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.249477] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.250337] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.251897] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.262439] (-) TimerEvent: {}
+[7.265837] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[7.362759] (-) TimerEvent: {}
+[7.463835] (-) TimerEvent: {}
+[7.564751] (-) TimerEvent: {}
+[7.666018] (-) TimerEvent: {}
+[7.766842] (-) TimerEvent: {}
+[7.867753] (-) TimerEvent: {}
+[7.871219] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.968390] (-) TimerEvent: {}
+[8.069646] (-) TimerEvent: {}
+[8.170953] (-) TimerEvent: {}
+[8.272498] (-) TimerEvent: {}
+[8.374035] (-) TimerEvent: {}
+[8.466048] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.3 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[8.474464] (-) TimerEvent: {}
+[8.575462] (-) TimerEvent: {}
+[8.676332] (-) TimerEvent: {}
+[8.777384] (-) TimerEvent: {}
+[8.878114] (-) TimerEvent: {}
+[8.883076] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.911136] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.911641] (my_bot) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[8.918453] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.923973] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.937013] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.944687] (my_bot) StdoutLine: {'line': b'-- Configuring done (8.8s)\n'}
+[8.969143] (my_bot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[8.977477] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/karan/robot_ws/src/build/my_bot\n'}
+[8.978314] (-) TimerEvent: {}
+[8.998988] (my_bot) CommandEnded: {'returncode': 0}
+[9.001279] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[9.004345] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/karan/robot_ws/src/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/home/karan/robot_ws/src/build/my_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'USER': 'karan', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'WT_PROFILE_ID': '{a63c2512-4e87-57e5-a7d5-b28ef0622bad}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/karan', 'OLDPWD': '/home/karan/robot_ws', 'TERM_PROGRAM_VERSION': '1.107.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-57def8ce-2384-4fa7-bd8d-18a1f68add9f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'karan', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/1227_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/karan/.vscode-server/bin/618725e67565b290ba4da6fe2d29f8fa1d4e3622/bin/remote-cli:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/New folder/Git/cmd:/mnt/d/New folder/Git/mingw64/bin:/mnt/d/New folder/Git/usr/bin:/mnt/d/New folder/Git:/mnt/d/New folder/Git/bin:/mnt/d/New folder/Git/cmd:/mnt/c/Users/karan/AppData/Local/Microsoft/WindowsApps:/mnt/d/Visual Studio/Microsoft VS Code/bin:/mnt/c/Users/karan/AppData/Roaming/npm:/mnt/c/Users/karan/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin', 'WT_SESSION': '7a9a69d2-3b01-454e-bff0-973390dd26e3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/karan/robot_ws/src/build/my_bot', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/opt/gz_sim_vendor/lib/python:/opt/ros/rolling/opt/gz_transport_vendor/lib/python:/opt/ros/rolling/opt/sdformat_vendor/lib/python:/opt/ros/rolling/opt/gz_msgs_vendor/lib/python:/opt/ros/rolling/opt/gz_math_vendor/lib/python:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[9.078788] (-) TimerEvent: {}
+[9.179625] (-) TimerEvent: {}
+[9.186712] (my_bot) CommandEnded: {'returncode': 0}
+[9.190353] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[9.230115] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/karan/robot_ws/src/build/my_bot'], 'cwd': '/home/karan/robot_ws/src/build/my_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'USER': 'karan', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'WT_PROFILE_ID': '{a63c2512-4e87-57e5-a7d5-b28ef0622bad}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/karan', 'OLDPWD': '/home/karan/robot_ws', 'TERM_PROGRAM_VERSION': '1.107.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-57def8ce-2384-4fa7-bd8d-18a1f68add9f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'karan', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/1227_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/karan/.vscode-server/bin/618725e67565b290ba4da6fe2d29f8fa1d4e3622/bin/remote-cli:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/nodejs/:/mnt/d/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/New folder/Git/cmd:/mnt/d/New folder/Git/mingw64/bin:/mnt/d/New folder/Git/usr/bin:/mnt/d/New folder/Git:/mnt/d/New folder/Git/bin:/mnt/d/New folder/Git/cmd:/mnt/c/Users/karan/AppData/Local/Microsoft/WindowsApps:/mnt/d/Visual Studio/Microsoft VS Code/bin:/mnt/c/Users/karan/AppData/Roaming/npm:/mnt/c/Users/karan/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin', 'WT_SESSION': '7a9a69d2-3b01-454e-bff0-973390dd26e3', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/karan/robot_ws/src/build/my_bot', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/opt/gz_sim_vendor/lib/python:/opt/ros/rolling/opt/gz_transport_vendor/lib/python:/opt/ros/rolling/opt/sdformat_vendor/lib/python:/opt/ros/rolling/opt/gz_msgs_vendor/lib/python:/opt/ros/rolling/opt/gz_math_vendor/lib/python:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[9.262218] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.262801] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/config\n'}
+[9.267100] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[9.267647] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/description\n'}
+[9.269132] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[9.270944] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[9.271773] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/launch\n'}
+[9.273339] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[9.273877] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/worlds\n'}
+[9.275386] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[9.279443] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[9.279815] (-) TimerEvent: {}
+[9.281391] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[9.283327] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[9.283813] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[9.284365] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/environment/path.sh\n'}
+[9.284867] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[9.285487] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/local_setup.bash\n'}
+[9.286276] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/local_setup.sh\n'}
+[9.287218] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[9.288304] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[9.289208] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/package.dsv\n'}
+[9.292710] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[9.296584] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[9.297555] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[9.299395] (my_bot) StdoutLine: {'line': b'-- Installing: /home/karan/robot_ws/src/install/my_bot/share/my_bot/package.xml\n'}
+[9.326102] (my_bot) CommandEnded: {'returncode': 0}
+[9.380141] (-) TimerEvent: {}
+[9.482083] (-) TimerEvent: {}
+[9.491449] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[9.494961] (-) EventReactorShutdown: {}
